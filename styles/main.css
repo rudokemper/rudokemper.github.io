@@ -126,6 +126,25 @@ figcaption {
   font-style: italic;
 }
 
+.coming-soon {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #d97706;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+
+body.dark .coming-soon {
+  background: #f59e0b;
+  color: #1e1e1e;
+}
+
 /* Dark Mode Overrides */
 body.dark {
   --bg: #121212;
