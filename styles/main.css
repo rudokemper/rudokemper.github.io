@@ -126,7 +126,7 @@ figcaption {
   font-style: italic;
 }
 
-.coming-soon {
+.featured-pill {
   display: inline-block;
   margin-left: 0.5rem;
   padding: 0.1rem 0.55rem;
@@ -140,7 +140,7 @@ figcaption {
   vertical-align: middle;
 }
 
-body.dark .coming-soon {
+body.dark .featured-pill {
   background: #f59e0b;
   color: #1e1e1e;
 }
